@@ -37,17 +37,27 @@ I followed the official [TensorFlow Object Detection API documentation](https://
 
 I used a EfficientDet D0 based architecture. The results_graph folder contains the graph _total_loss_ and _classification_loss_ during training.
 
-
 ## Sample Image
-<img src="assets/sample.jpeg">
+<img height=500 width=500 src="assets/sample.jpeg">
 
 ## Inference
 Here are some results after running the trained model on some test images:
+<p>
+    <img height=450 width=450 src="output_images/one.png">
+    <img height=450 width=450 src="output_images/two.png"> <br>
+    <img height=450 width=450 src="output_images/three.png">
+    <img height=450 width=450 src="output_images/four.png">
+</p>
 
-<img height=700 width=700 src="output_images/one.png">
-<img height=700 width=700 src="output_images/two.png">
-<img height=700 width=700 src="output_images/three.png">
-<img height=700 width=700 src="output_images/four.png">
+## Results
+
+<img height=300 width=400 src="results_graph/total_loss.png">
+
+**Total Loss**
+
+<img height=300 width=400 src="results_graph/classification_loss.png">
+
+**Classification Loss**
 
 
 ## Further undertakings
