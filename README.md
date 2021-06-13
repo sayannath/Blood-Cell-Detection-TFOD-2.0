@@ -1,5 +1,7 @@
 # Blood-Cell-Detection-TFOD-2.0
 
+**Status:** _Under Development_
+
 This project demonstrates the use of TensorFlow Object Detection API to automatically detect Red Blood Cells (RBCs), White Blood Cells (WBCs), and Platelets in each image taken via microscopic image readings.
 
 The dataset used in this project was collected from [here](https://github.com/Shenggan/BCCD_Dataset).
