@@ -43,10 +43,10 @@ I used a EfficientDet D0 based architecture. The results_graph folder contains t
 ## Inference
 Here are some results after running the trained model on some test images:
 <p>
-    <img height=450 width=450 src="output_images/one.png">
-    <img height=450 width=450 src="output_images/two.png"> <br>
-    <img height=450 width=450 src="output_images/three.png">
-    <img height=450 width=450 src="output_images/four.png">
+    <img height=400 width=400 src="output_images/one.png">
+    <img height=400 width=400 src="output_images/two.png"> <br>
+    <img height=400 width=400 src="output_images/three.png">
+    <img height=400 width=400 src="output_images/four.png">
 </p>
 
 ## Results
