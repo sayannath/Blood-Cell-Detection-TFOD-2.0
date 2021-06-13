@@ -4,7 +4,7 @@ This project demonstrates the use of TensorFlow Object Detection API to automati
 
 The dataset used in this project was collected from [here](https://github.com/Shenggan/BCCD_Dataset).
 
-The directory structure looks like so:
+The project directory structure looks like:
 
 ```
 .
@@ -33,4 +33,30 @@ The directory structure looks like so:
     └── total_loss.png
 ```
 
+I followed the official [TensorFlow Object Detection API documentation](https://github.com/tensorflow/models/tree/master/research/object_detection) to kickstart the training process on Google Colab Pro using Cloud GPU to export the inference graph.
+
+I used a EfficientDet D0 based architecture. The results_graph folder contains the graph _total_loss_ and _classification_loss_ during training.
+
+
 ## Sample Image
+<img src="assets/sample.jpeg">
+
+## Inference
+Here are some results after running the trained model on some test images:
+
+<img height=700 width=700 src="output_images/one.png">
+<img height=700 width=700 src="output_images/two.png">
+<img height=700 width=700 src="output_images/three.png">
+<img height=700 width=700 src="output_images/four.png">
+
+
+## Further undertakings
+* Optimise the model using the [OpenVINO toolkit](https://software.intel.com/en-us/openvino-toolkit) 
+* Convert the _saved_model_ to .tflite
+* To be paired with microscopes used by pathologists
+
+## Acknowledgements
+I am thankful to [Sayak Paul](https://sayak.dev) for guiding me in this project.
+
+## Developed & Maintained by
+👨 [Sayan Nath](https://sayannath.biz)
