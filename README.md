@@ -54,12 +54,10 @@ Here are some results after running the trained model on some test images:
 
 ## Results
 
-<img height=300 width=400 src="results_graph/total_loss.png">
+<img src="exported_graph/mAP@.50IOU.png"> <br>
+**mAP@0.50IOU**
 
-**Total Loss**
-
-<img height=300 width=400 src="results_graph/classification_loss.png">
-
+<img src="exported_graph/classification_loss.png"> <br>
 **Classification Loss**
 
 
