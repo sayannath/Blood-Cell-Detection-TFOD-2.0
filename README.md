@@ -37,8 +37,8 @@ The project directory structure looks like:
 
 I followed the official [TensorFlow Object Detection API documentation](https://github.com/tensorflow/models/tree/master/research/object_detection) to kickstart the training process on Google Colab Pro using Cloud GPU to export the inference graph.
 
-I used a EfficientDet D0 based architecture. 
-The **results_graph** folder contains the graph _total_loss_ and _classification_loss_ during training.
+I used a EfficientDet D0 based architecture,since it yields a pretty good `mAP@.50IOU` of around **90.14%**. <br> 
+The `results_graph` folder contains the graph _total_loss_ and _classification_loss_ during training.
 
 ## Sample Image
 <img height=500 width=500 src="assets/sample.jpeg">
