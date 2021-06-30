@@ -38,6 +38,8 @@ I followed the official [TensorFlow Object Detection API documentation](https://
 I used a EfficientDet D0 based architecture,since it yields a pretty good `mAP@.50IOU` of around **90.14%**. <br> 
 The `results_graph` folder contains the graph _total_loss_ and _classification_loss_ during training.
 
+<img src="assets/efficient det.png">
+
 ## Sample Image
 <img height=500 width=500 src="assets/sample.jpeg">
 
