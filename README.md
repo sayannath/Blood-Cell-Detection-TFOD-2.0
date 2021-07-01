@@ -39,6 +39,7 @@ I used a EfficientDet D0 based architecture,since it yields a pretty good `mAP@.
 The `results_graph` folder contains the graph _classification_loss_ during training.
 
 <img src="assets/efficient det.png">
+Source: https://arxiv.org/abs/1911.09070
 
 ## Sample Image
 <img height=500 width=500 src="assets/sample.jpeg">
